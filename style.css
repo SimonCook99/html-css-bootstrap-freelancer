@@ -20,6 +20,8 @@ header{
     align-self: center;
 }
 
+
+/* Sezione jumbotron*/
 .ms_bgGreen{
     background-color: #1abc9c;
 }
@@ -29,4 +31,19 @@ header{
     position: relative;
     left: 50%;
     transform: translate(-50%);
+}
+
+.ms_titolo{
+    color: white;
+    font-size: 60px;
+}
+
+
+/* sezione portfolio*/
+.ms_portfolio{
+    width: 100%;
+}
+
+p{
+    width: 50%;
 }
