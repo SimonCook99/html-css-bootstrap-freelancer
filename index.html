@@ -20,7 +20,7 @@
     <div class="container-fluid px-0">
         <header>
 
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-sm navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand text-white text-uppercase" href="#">Start bootstrap</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,10 +113,10 @@
 
             <div class="row justify-content-center">
 
-                <div class="col-12">
+                <div class="col-12 col-sm-6">
                     <p class="ms_white text-lowercase px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat neque recusandae, maxime, incidunt reiciendis facere quas, unde qui accusantium modi explicabo iste vitae temporibus vero quis? Reiciendis, repellendus quibusdam.</p>        
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-sm-6">
                     <p class="ms_white text-lowercase px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi dignissimos enim dolorem fugiat ad, eius labore nesciunt corrupti ipsam officiis est sunt unde rerum tempora odit cupiditate repellat accusantium.</p>
 
                 </div>
@@ -144,13 +144,29 @@
             
             <div class="FORM">
 
+                <form class="px-5">
+                    <div class="mb-3">
+                      <input placeholder="Name" type="email" class="ms_input" id="exampleInputEmail1" aria-describedby="emailHelp">                    </div>
+                    <div class="mb-3">
+                      <input placeholder="Email Address" type="password" class="ms_input" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <input placeholder="Phone Number" type="password" class="ms_input" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <textarea placeholder="Message" class="ms_input" name="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    
+                    <button type="submit" class="btn btn-success">Send</button>
+                  </form>
             </div>
         </div>
     </main>
 
 
     <!--Sezione footer-->
-    <div class="container-fluid">
+    <div class="container-fluid px-0">
         <footer>
 
             <div class="body">
@@ -176,7 +192,9 @@
             </div>
 
 
-            <div class="final"></div>
+            <div class="final">
+                <p class="text-center text-white">Copyright Your website 2019</p>
+            </div>
         </footer>
 
         
