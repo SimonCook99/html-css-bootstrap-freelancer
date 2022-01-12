@@ -48,13 +48,15 @@ main{
 .bi.bi-dash-lg{
     font-size: 80px;
     color: white;
+    position: relative;
+    bottom: 30px;
 }
 
 .bi.bi-star-fill{
     font-size: 40px;
     color: white;
     position: relative;
-    bottom: 15px;
+    bottom: 45px;
 }
 
 
@@ -88,6 +90,12 @@ footer .body{
     width: 100%;
     background-color: #3a546d;
     color: white;
+}
+
+footer i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .final{
