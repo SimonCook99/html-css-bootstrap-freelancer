@@ -64,11 +64,8 @@ main{
 }
 
 p{
-    width: 50%;
+    text-align: left;
 }
-
-
-
 
 
 /* Sezione FORM*/
@@ -81,10 +78,10 @@ p{
 
 
 /* Sezione Footer*/
-footer{
+footer .body{
     width: 100%;
     background-color: #3a546d;
-    height: 200px;
+    color: white;
 }
 
 .final{
