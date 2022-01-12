@@ -16,92 +16,140 @@
     
 
 
-    <div class="container-fluid">
+    <div class="container-fluid px-0">
         <header>
-            <div class="row ms_70px">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white text-uppercase" href="#">Start bootstrap</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white text-uppercase" aria-current="page" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white text-uppercase" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link text-white text-uppercase" href="#">Contact</a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+
+            <!-- <div class="row ms_70px">
                 <div class="col-11 ms_col-style">
                     start Bootstrap
                 </div>
                 <div class="col-1 ms_col-style">
                     <i class="bi bi-list"></i>
                 </div>
-            </div>
+            </div> -->
         </header>
     </div>
 
-    <div class="container-fluid ms_bgGreen">
+    <main>
+        <div class="container-fluid ms_bgGreen text-center py-4">
 
-        <img class="text-center " src="bootstrap_freelancer/img/avatar.svg" alt="avatar">
-        <h1 class="text-center ms_titolo">Start bootstrap</h1>
-        <i class="bi bi-star-fill"></i>
-
-
-    </div>
-
-
-    <div class="container">
-        
-        <h2 class="text-center mt-4">portfolio</h2>
-        <i class="bi bi-star-fill text-center"></i>
-    </div>
+            <img src="bootstrap_freelancer/img/avatar.svg" alt="avatar">
+            <h1 class="text-center ms_titolo">Start bootstrap</h1>
+            <i class="bi bi-dash-lg"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-dash-lg"></i>
+            <h3 class="ms_white">Graphic artist - web artist - illustrator</h3>
+        </div>
 
 
-    <div class="container-fluid d-flex justify-content-center flex-wrap">
-        <div class="row">
-            <div class="col-12">
-                <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/cabin.png" alt="casa">
+        <div class="container text-center">
+            
+            <h2 class="mt-4">portfolio</h2>
+            <i class="bi bi-dash-lg text-black"></i>
+            <i class="bi bi-star-fill text-center text-black"></i>
+            <i class="bi bi-dash-lg text-black"></i>
+        </div>
+
+
+        <div class="container-fluid d-flex justify-content-center flex-wrap">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/cabin.png" alt="casa">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/cake.png" alt="torta">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/circus.png" alt="circo">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/game.png" alt="gioco">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/safe.png" alt="cassaforte">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/submarine.png" alt="sottomarino">
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/cake.png" alt="torta">
+
+
+        <div class="container-fluid ms_bgGreen text-center mt-4">
+            <h3 class="ms_white">ABOUT</h3>
+            <i class="bi bi-dash-lg"></i>
+            <i class="bi bi-star-fill text-center"></i>
+            <i class="bi bi-dash-lg"></i>
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat neque recusandae, maxime, incidunt reiciendis facere quas, unde qui accusantium modi explicabo iste vitae temporibus vero quis? Reiciendis, repellendus quibusdam.</p>        
+                </div>
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi dignissimos enim dolorem fugiat ad, eius labore nesciunt corrupti ipsam officiis est sunt unde rerum tempora odit cupiditate repellat accusantium.</p>
+
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-outline-success text-white">
+                <i class="bi bi-download"> Download</i>
+                
+            </button>
+
+        </div>
+
+
+        <div class="container text-center">
+            
+            <h2 class="mt-4">Contact me</h2>
+
+            <i class="bi bi-dash-lg text-black"></i>
+            <i class="bi bi-star-fill text-center text-black"></i>
+            <i class="bi bi-dash-lg text-black"></i>
+        </div>
+
+        <div class="container">
+            
+            <div class="FORM">
+
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/circus.png" alt="circo">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/game.png" alt="gioco">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/safe.png" alt="cassaforte">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <img class="rounded mt-3 text-center ms_portfolio" src="bootstrap_freelancer/img/submarine.png" alt="sottomarino">
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container-fluid ms_bgGreen text-center mt-4">
-        <h3>ABOUT</h3>
-        <i class="bi bi-star-fill text-center"></i>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti placeat neque recusandae, maxime, incidunt reiciendis facere quas, unde qui accusantium modi explicabo iste vitae temporibus vero quis? Reiciendis, repellendus quibusdam.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi dignissimos enim dolorem fugiat ad, eius labore nesciunt corrupti ipsam officiis est sunt unde rerum tempora odit cupiditate repellat accusantium.</p>
-    </div>
-
-
-    <div class="container">
-        
-        <h2 class="text-center mt-4">Contact me</h2>
-        <i class="bi bi-star-fill text-center"></i>
-    </div>
-
-    <div class="container">
-        
-        <div class="FORM">
-
-        </div>
-    </div>
+    </main>
 
 
     <div class="container-fluid">

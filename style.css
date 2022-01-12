@@ -20,6 +20,9 @@ header{
     align-self: center;
 }
 
+main{
+    text-transform: uppercase;
+}
 
 /* Sezione jumbotron*/
 .ms_bgGreen{
@@ -27,15 +30,31 @@ header{
 }
 
 .ms_bgGreen img{
-    max-width: 20%;
-    position: relative;
+    max-width: 30%;
+    /* position: relative;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%); */
 }
 
 .ms_titolo{
     color: white;
-    font-size: 60px;
+    font-size: 50px;
+}
+
+.ms_white{
+    color: white;
+}
+
+.bi.bi-dash-lg{
+    font-size: 80px;
+    color: white;
+}
+
+.bi.bi-star-fill{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 15px;
 }
 
 
@@ -47,6 +66,10 @@ header{
 p{
     width: 50%;
 }
+
+
+
+
 
 /* Sezione FORM*/
 .FORM{
