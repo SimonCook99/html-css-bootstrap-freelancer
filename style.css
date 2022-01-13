@@ -60,9 +60,39 @@ main{
 }
 
 
+
+
 /* sezione portfolio*/
 .ms_portfolio{
     width: 100%;
+}
+
+#portfolio .ms_hover:hover .overlay{
+    display: flex!important;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 16px;
+    width: 95%;
+    height: 95%;
+    background-color: #1abc9c;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms_plus{
+    color: white;
+    font-size: 70px;
+}
+
+
+/* Sezione about*/
+.ms_px{
+    padding: 0 20%;
 }
 
 p{
@@ -101,4 +131,8 @@ footer i{
 .final{
     background-color: #2c3e50;
     height: 50px;
+}
+
+.ms_hover_green:hover{
+    color: #1abc9c!important; 
 }
